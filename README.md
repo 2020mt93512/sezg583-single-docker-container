@@ -4,6 +4,15 @@
 
 This project contains scripts that are used to build the artifacts for the 3 microservices developed as part of Assignment 1 and create a single docker image that can run all these services in the same container.
 
+### Docker image having all 3 microservice JARs
+![Docker image having all 3 microservice JARs](./screenshots//single-docker-container-image.png)
+
+### Single-container having all 3 microservices running in Docker Desktop
+![Single-container having all 3 microservices running in Docker Desktop](./screenshots//single-docker-container.png)
+
+### Container Logs
+![Container Logs](./screenshots//container-logs.png)
+
 To deploy the services in a single container, the following commands are used:
 - To build the artifacts (you need to have Java 8)
 	```bash
