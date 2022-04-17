@@ -3,7 +3,7 @@ FROM openjdk:8u181
 
 # copy the artifacts
 COPY parkingmgmtapi/target/parkingMgmt-0.0.1-SNAPSHOT.jar parkingMgmt-0.0.1-SNAPSHOT.jar
-COPY societymgmtapi/target/mainteanancemgmt-0.0.1-SNAPSHOT.jar societymgmtapi-0.0.1-SNAPSHOT.jar
+COPY societymgmtapi/target/societymgmt-0.0.1-SNAPSHOT.jar societymgmtapi-0.0.1-SNAPSHOT.jar
 COPY mainteancemgmtapi/target/mainteanancemgmt-0.0.1-SNAPSHOT.jar mainteanancemgmt-0.0.1-SNAPSHOT.jar
 
 # copy the scripts
